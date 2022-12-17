@@ -1,0 +1,61 @@
+.section{
+  background-color: lightblue;
+}
+.section1{
+  text-align: center;
+}
+.section1 > p{
+  font-size: 25px;
+  float: center;
+  padding:40px;
+}
+.section1 > h1{
+  font-size: 75px;
+}
+.links > a{
+  font-size: 30px;
+  padding-left: 10px;
+}
+
+table,th, td {
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid;
+    padding-bottom: 5px;
+    padding-top:5px;
+    background-color: lightblue;
+  }
+
+body {
+    background-image: url("juul.jpg");
+    }
+@media screen and (max-width : 720px) {
+  .links > a{
+    font-size: 23px;
+  }
+  .links{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: lightblue;
+    flex-wrap:wrap;
+  }
+  .section1 > p{
+    font-size: 17px;
+    border: 2px solid black;
+  }
+  .section1 > h1{
+    font-size: 25px;
+  }
+  table,th, td {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid;
+    background-color: lightblue;
+  }
+  body {
+          background-color: lightblue;
+    }
+}
+/*Done by Vikram and Benson, added all the CSS Selectors /* 
