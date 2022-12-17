@@ -1,0 +1,10 @@
+.footer{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+#copy{
+    text-align: center;
+}
+
+/*Made by Benson, this footer goes for all pages*/
