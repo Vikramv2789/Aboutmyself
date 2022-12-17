@@ -1,0 +1,41 @@
+body {
+    background-color: #DBF9FC;
+    }
+.links > a{
+  font-size: 30px;
+  padding-left: 10px;
+}
+h1{
+  text-align: center;
+  text-decoration: underline; 
+}
+
+img{
+  width:400px;
+  height:300px;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section{
+  text-align: center;
+}
+.section > h3{
+  font-size: 30px;
+}
+.section > p{
+  font-size: 20px;
+}
+@media screen and (max-width : 720px) {
+  .links{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: lightblue;
+    flex-wrap:wrap;
+  }
+  .section > h3{
+    text-decoration: underline; 
+  }
+      }
+/*Done by Vikram: made media query, decorated page, set links/*
