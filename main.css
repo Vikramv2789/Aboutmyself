@@ -28,7 +28,7 @@ table,th, td {
   }
 
 body {
-    background-image: url("juul.jpg");
+    
     }
 @media screen and (max-width : 720px) {
   .links > a{
