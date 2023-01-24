@@ -1,70 +1,19 @@
-.section{
-  background-color: lightblue;
-}
-.section1{
-  text-align: center;
-}
-.section1 > p{
-  font-size: 25px;
-  float: center;
-  padding:40px;
-}
-.section1 > h1{
-  font-size: 75px;
-}
-/* Three image containers (use 25% for four, and 50% for two, etc) */
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
-}
-
-/* Clear floats after image containers */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-.links > a{
-  font-size: 30px;
-  padding-left: 10px;
-}
-
 body {
-    
-    }
-@media screen and (max-width : 720px) {
-  .links > a{
-    font-size: 23px;
-  }
-  .links{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-around;
-    background-color: lightblue;
-    flex-wrap:wrap;
-  }
-  .section1 > p{
-    font-size: 17px;
-    border: 2px solid black;
-  }
-  .section1 > h1{
-    font-size: 25px;
-  }
-  /* Three image containers (use 25% for four, and 50% for two, etc) */
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
+    background-color: lightyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-/* Clear floats after image containers */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
+h1 {
+    font-family: 'Courier New', Courier, monospace;
 }
-  body {
-          background-color: lightblue;
-    }
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h3 {
+    font-family: 'Courier New', Courier, monospace;
 }
