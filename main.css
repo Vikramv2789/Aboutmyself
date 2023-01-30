@@ -30,10 +30,10 @@ h6 {
 
 p {
     font-family: 'Courier New', Courier, monospace;
-}    
+} 
+
 img {
-    align-items: center;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
 }
