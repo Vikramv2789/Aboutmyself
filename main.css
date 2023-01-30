@@ -31,3 +31,6 @@ h6 {
 p {
     font-family: 'Courier New', Courier, monospace;
 }    
+img {
+    align-items: center;
+}
